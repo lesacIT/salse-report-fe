@@ -1,0 +1,23 @@
+// Write your overrides
+.v-data-table__th {
+  text-align: center; /* Canh giữa văn bản */
+  flex: 1; /* Đảm bảo mỗi ô tiêu đề chiếm không gian bằng nhau */
+}
+
+.v-data-table-header__content {
+  display: flex;
+  align-items: center;
+}
+
+
+.v-data-table-header__content {
+  display: flex;
+  align-items: center; /* Canh giữa nội dung theo chiều dọc */
+  width: 100%; /* Đảm bảo chiếm hết chiều rộng */
+  padding: 10px; /* Thêm một ít đệm nếu cần */
+}
+
+.v-data-table__th {
+  flex: 1; /* Mỗi ô tiêu đề sẽ chiếm không gian bằng nhau */
+}
+
